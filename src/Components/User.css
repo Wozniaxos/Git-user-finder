@@ -1,0 +1,33 @@
+.avatar{
+    width: 3vw;
+    height: 3vw;
+    padding-right: 10px;
+}
+.UnactiveUser{
+    display: flex;
+    background-color: beige;
+    line-height: 0.5vw;
+    font-size: 1.0vw;
+}
+.ActiveUser{
+    display: flex;
+    background-color: aqua;
+    line-height: 0.5vw;
+    font-size: 1.0vw;
+}
+.UnactiveUser>a{
+ 
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-content: flex-start;
+}
+.ActiveUser>a{
+ 
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-content: flex-start;
+}
